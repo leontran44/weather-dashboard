@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main class="container my-4">
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <div class="input-group">
+                    <input type="text" id="city-input" class="form-control" placeholder="Enter city name">
+                    <div class="input-group-append">
+                        <button id="search-button" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="current-weather" class="mb-4">
+            <!-- Current weather conditions will be displayed here -->
+        </div>
+        <div id="forecast" class="row">
+            <!-- 5-day forecast will be displayed here -->
+        </div>
+        <div id="history" class="mt-4">
+            <h2>Search History</h2>
+            <ul id="history-list" class="list-group">
+                <!-- Search history will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
