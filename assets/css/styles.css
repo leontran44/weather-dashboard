@@ -24,13 +24,14 @@ main {
 }
 
 #city-input {
-    width: 200px;
+    flex: 1;
     padding: 0.5rem;
     margin-right: 0.5rem;
 }
 
 #search-button {
     padding: 0.5rem;
+    min-width: 100px;
 }
 
 #current-weather, #forecast {
