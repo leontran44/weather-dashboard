@@ -20,7 +20,7 @@ The project is developed using [5 Day Weather Forecast](https://openweathermap.o
 
 ## Final Product
 
-TO BE ANNOUNCED.
+![Final Product](./assets/img/final-product.PNG)
 
 ## Reference
 
@@ -31,7 +31,7 @@ TO BE ANNOUNCED.
 
 1. Access the HTML source code through the repo or within a Chromium/Firefox browser by pressing `F12` or `Control+Shift+I` (Windows) or `Command+Option+I` (MacOS).
 
-2. Click on this link (TBA) to access to the deployment webpage.
+2. Click on this link http://leontran44.github.io/weather-dashboard/ to access to the deployment webpage.
 
 ## License
 
