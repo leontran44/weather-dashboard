@@ -13,8 +13,8 @@
 
 This repository contains the code for **Weather Dashboard** website, allowing users to enter city name and display weather. Key features include:
 
-- current weather of input city including temperature, humidity and wind speed
-- forcast upto 5 days
+- current weather of input city including temperature, humidity and wind speed.
+- forcast upto 5 days.
 
 The project is developed using [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities
 
