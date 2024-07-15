@@ -94,7 +94,7 @@ function displayForecast(data) {
         const forecast = data.list[i];
 
         const card = document.createElement('div');
-        card.className = 'card';
+        card.className = 'card forecast-card';
 
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
