@@ -36,7 +36,6 @@ main {
 
 #current-weather, #forecast {
     background: white;
-    padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,4 +57,39 @@ main {
     margin-bottom: 0.5rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card {
+    background-color: #f8f9fa; /* Bright background color */
+    border: 1px solid #dee2e6; /* Light border */
+    margin-bottom: 15px; /* Space between cards */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card p {
+    margin: 5px 0; /* Reduce margin for paragraphs */
+}
+
+.card img {
+    width: 50px; /* Fixed size for weather icon */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    flex: 1 0; /* Adjust card width */
+    margin: 10px;
+    background-color: #1694cf; 
 }
